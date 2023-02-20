@@ -1,0 +1,8 @@
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+*.py
+*.ipynb
+ClientAPI.php
+Cron.php
+config.php
