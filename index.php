@@ -8,15 +8,7 @@ if ($tg->isChannelPost() === false && $tg->isEditChannelPost() === false) {
 
     $chatId = $tg->getChatId();
     $text = $tg->getMessageText();
-    /* $member = $tg->getChannelMember($chatId);
-    if ($member === true) {} else {
-        $message = "To work with the bot, you must subscribe to our channel and click on <b>Check membership</b>.";
-        $message .= "\nChannel link: @ZarchiProjects";
-        $body[0]['text'] = "Check membership";
-        $body[0]['callback_data'] = $text;
-        $buttons = array('body' => $body, 'bodyVertical' => 1);
-        $tg->sendInlineKeyboard($chatId, $message, "text", null, $buttons);
-    } */
+    
     $cr = Core::getInstance();
     $textHelper = $text;
     if ($chatId > 0) {
