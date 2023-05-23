@@ -1,2 +1,3 @@
-# Age Birth
-> <sub>This is TelegramBot and help you to calculate your moments life</sub>
+# Age Birth TelegramBot
+
+Calculate your moments at [AgeBirthBot](https://t.me/AgeBirthBot)
